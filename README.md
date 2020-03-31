@@ -5,6 +5,12 @@
 
 > 基于[apicache](https://www.npmjs.com/package/apicache)改造而成，拥有`apicache@1.5.3`以下所有的功能。
 
+## 安装
+
+```shell
+yarn add @pengqiangsheng/apicache
+```
+
 ## 使用文档
 
 > 大体上分为三种使用方式：1.所有路由 2.某个路由实例下所有路由 3.某个具体的路由
@@ -13,7 +19,7 @@
 const Koa = require('koa')
 const app = new Koa()
 const Router = require('@koa/router')
-const apicache = require('@koa/apicache')
+const apicache = require('@pengqiangsheng/apicache')
 const cache = apicache.middleware
 const router = new Router({
   prefix: '/api'
@@ -42,7 +48,7 @@ app
 
 ### 安装依赖
 
-安装以下依赖:
+克隆本项目后，安装以下依赖:
 
 ```js
 "dependencies": {
