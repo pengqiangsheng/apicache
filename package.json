@@ -1,9 +1,9 @@
 {
   "name": "@pengqiangsheng/apicache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon node test.js"
+    "test": "nodemon node test/index.js"
   },
   "description": "An ultra-simplified API response caching middleware for Koa using plain-english durations.",
   "author": "pengqiangsheng",
