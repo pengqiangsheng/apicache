@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon node app.js"
+    "test": "nodemon node test.js"
   },
   "description": "An ultra-simplified API response caching middleware for Koa using plain-english durations.",
   "author": "pengqiangsheng",

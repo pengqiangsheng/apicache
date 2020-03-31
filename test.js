@@ -15,6 +15,7 @@ const cache = apicache
 // a apicahe new instance with redis
 const redisApiCache = apicache
                       .newInstance({
+                        // 安装Redis数据库后启用此行
                         // redisClient: redis.createClient(),
                         trackPerformance: true,
                         debug: true
