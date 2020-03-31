@@ -1,0 +1,29 @@
+{
+  "name": "@koa/apicache",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node app.js"
+  },
+  "description": "An ultra-simplified API response caching middleware for Koa using plain-english durations.",
+  "author": "pengqiangsheng",
+  "license": "ISC",
+  "homepage": "https://github.com/pengqiangsheng/apicache",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:pengqiangsheng/apicache.git"
+  },
+  "keywords": [
+    "cache",
+    "API",
+    "redis",
+    "memcache",
+    "response",
+    "koa",
+    "koa2",
+    "JSON",
+    "duration",
+    "middleware",
+    "memory"
+  ]
+}
